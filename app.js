@@ -6,8 +6,8 @@ const mailchimp = require("@mailchimp/mailchimp_marketing");
 const md5 = require("md5");
 
 mailchimp.setConfig({
-  apiKey: "0ac0501de0c9173ac935b9626da363bf-us20",
-  server: "us20",
+  apiKey: "axcv1254",
+  server: "x1ydwg",
 });
 
 process.on('uncaughtException', function (err) {
@@ -82,5 +82,3 @@ app.listen(3000, function(){
   console.log("Server is running on port 3000");
 })
 
-//Api key: 0ac0501de0c9173ac935b9626da363bf-us20
-//list id:5063f3a113
